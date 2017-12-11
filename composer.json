@@ -1,0 +1,19 @@
+{
+    "name": "intelligentspark/meet-manager-results-formatted",
+    "description": "A tool for converting meet manager generic MDB export (v6.0) to a formatted results report for newspaper reporting",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.9",
+        "php": "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "fbliss",
+            "email": "fred.bliss@intelligentspark.com"
+        }
+    ]
+}
