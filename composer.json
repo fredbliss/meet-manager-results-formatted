@@ -1,21 +1,22 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
-    "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
-    "license": "MIT",
+    "name": "intelligentspark/meet-manager-results-formatted",
+    "description": "A tool for formatting meet manager results from a generic Access database export for The Greenfield Recorder",
+    "keywords": ["meet manager","export","reporting","project"],
+    "homepage": "http://github.com/intelligentspark/meet-manager-results-formatted",
+    "license": "UNLICENSED",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
+            "name": "Fred Bliss",
+            "email": "fredrbliss@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.5.0",
         "slim/slim": "^3.1",
         "slim/php-view": "^2.0",
-        "monolog/monolog": "^1.17"
+        "monolog/monolog": "^1.17",
+        "josegonzalez/dotenv": "dev-master",
+        "aura/sql": "^2.5"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.8 < 6.0"
