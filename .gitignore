@@ -1,4 +1,4 @@
 /vendor/
-*.env
+/environments/*.env
 /logs/*
 !/logs/README.md
